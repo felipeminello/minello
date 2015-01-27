@@ -1,0 +1,13 @@
+{
+	"name": "Minello Development",
+	"autoload": {
+		"psr-4": {
+			"Modelo\\": "src/Modelo/",
+			"Controle\\": "src/Controle/"
+		}
+	},
+    "require": {
+        "twig/twig": "~1.0",
+        "phpmailer/phpmailer": ">=5.2.9"
+    }
+}
